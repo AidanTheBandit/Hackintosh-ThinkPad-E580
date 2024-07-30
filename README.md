@@ -59,6 +59,9 @@ sudo pmset -a autopoweroff 0
 ## Function keys
 To make the function keys work, you need to install [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant/releases/download/v1.9.2.1/ThinkpadAssistant.dmg)
 
+## Display scaling
+By default, the scaling is set to 100%. To fix this, just get [this](https://github.com/xzhih/one-key-hidpi), Enable HiDPI, MacBook Pro icon, 1080p. Then once you are back in macOS, go into System Settings and change the Display "resolution" to 1440x810 (it tricks macOS into thinking it's a Retina screen which enables scaling)
+
 ## How to use
 You need:
 
