@@ -2,13 +2,13 @@
 
 ![Lenovo ThinkPad E580](image.png)
 
-OpenCore configuration for my main laptop. Currently runs macOS Sonoma but planning to upgrade it to macOS Sequoia once it's stable and AirportItlwm works on it.
+OpenCore configuration for my main laptop. Currently runs macOS Sonoma (14.6) but planning to upgrade it to macOS Sequoia once it's stable and AirportItlwm works on it.
 
 I strongly recommend you to use rEFInd when you want to dual boot. Booting Windows through Bootcamp has been only problematic.
 
 If you're planning to use this, I recommend you check the Dortania OpenCore guide first to fix things like language, iServices and keyboard layout.
 
-OpenCore version: 0.9.5
+OpenCore version: 1.0.0
 
 ## Specs
 - CPU: Intel Core i5-8250U (8 cores, 16 threads)
@@ -20,7 +20,7 @@ OpenCore version: 0.9.5
 
 ## What works
 - HDMI video out + audio out
-- USB ports
+- USB ports (including USB-C)
 - 3.5mm audio jack (haven't tried microphone yet)
 - Keyboard
 - Webcam
