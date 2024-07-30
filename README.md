@@ -8,6 +8,10 @@ I strongly recommend you to use rEFInd when you want to dual boot. Booting Windo
 
 If you're planning to use this, I recommend you check the Dortania OpenCore guide first to fix things like language, iServices and keyboard layout.
 
+> [!WARNING]
+> This Hackintosh build is very personalized. It has NVMe disabled completely for example (Samsung PM981 issues) using kernel arguments and I use SATA, so please change the settings before updating.
+> You should have some experience with Hackintosh and not use this blindly!
+
 OpenCore version: 1.0.0
 
 ## Specs
